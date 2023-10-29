@@ -739,4 +739,86 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.contact {
+  padding: 145px 0 160px;
+  background-image: url("../img/Bitmap.jpg");
+  background-repeat: no-repeat;
+  background-size: 40%;
+  background-position: right;
+}
+.contact__title {
+  margin-bottom: 80px;
+}
+.contact__form {
+  max-width: 570px;
+}
+.contact__form-input, .contact__form-textarea {
+  border: none;
+  border-bottom: 2px solid #373a39;
+  width: 100%;
+  font-family: "Open Sans" sans-serif;
+  font-style: normal;
+  padding: 16px 0;
+  margin-bottom: 16px;
+  font-size: 16px;
+  font-weight: 700;
+}
+.contact__form-input::-webkit-input-placeholder, .contact__form-textarea::-webkit-input-placeholder {
+  color: #b8b8b8;
+  font-size: 12px;
+  letter-spacing: 3.709px;
+  line-height: 20px; /* 166.667% */
+  text-transform: uppercase;
+  font-weight: 400;
+}
+.contact__form-input::-moz-placeholder, .contact__form-textarea::-moz-placeholder {
+  color: #b8b8b8;
+  font-size: 12px;
+  letter-spacing: 3.709px;
+  line-height: 20px; /* 166.667% */
+  text-transform: uppercase;
+  font-weight: 400;
+}
+.contact__form-input:-ms-input-placeholder, .contact__form-textarea:-ms-input-placeholder {
+  color: #b8b8b8;
+  font-size: 12px;
+  letter-spacing: 3.709px;
+  line-height: 20px; /* 166.667% */
+  text-transform: uppercase;
+  font-weight: 400;
+}
+.contact__form-input::-ms-input-placeholder, .contact__form-textarea::-ms-input-placeholder {
+  color: #b8b8b8;
+  font-size: 12px;
+  letter-spacing: 3.709px;
+  line-height: 20px; /* 166.667% */
+  text-transform: uppercase;
+  font-weight: 400;
+}
+.contact__form-input::placeholder, .contact__form-textarea::placeholder {
+  color: #b8b8b8;
+  font-size: 12px;
+  letter-spacing: 3.709px;
+  line-height: 20px; /* 166.667% */
+  text-transform: uppercase;
+  font-weight: 400;
+}
+.contact__form-textarea {
+  min-height: 140px;
+  resize: none;
+}
+.contact__form-btn {
+  font-weight: 700;
+  font-size: 11px;
+  line-height: 13px;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 17px 70px 15px;
+  border: none;
+  background: #242121;
+  cursor: pointer;
+  margin-top: 40px;
+  letter-spacing: 2px;
 }/*# sourceMappingURL=style.css.map */
