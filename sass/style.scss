@@ -523,3 +523,109 @@ body {
 .slick-next {
 	right: -95px;
 }
+
+.team {
+	padding: 120px 0 130px;
+	&__title {
+		margin-bottom: 120px;
+	}
+
+	&__cards {
+		display: flex;
+		justify-content: space-between;
+		text-align: center;
+	}
+
+	&__card {
+	}
+
+	&__card-image {
+	}
+
+	&__card-title {
+		margin-top: 35px;
+		color: #333;
+		font-family: 'Montserrat';
+		font-size: 14px;
+		font-weight: 700;
+		line-height: normal;
+	}
+
+	&__card-subtitle {
+		margin-top: 12px;
+		color: #373a39;
+		font-family: 'Open Sans', sans-serif;
+		font-size: 12px;
+		font-weight: 300;
+		line-height: normal;
+	}
+}
+.pricing {
+	background-color: #f6f6fa;
+	padding: 145px 0 168px;
+	&__title {
+		margin-bottom: 90px;
+	}
+	&__cards {
+		display: flex;
+		justify-content: space-between;
+	}
+	&__card {
+		background-color: #fff;
+		text-align: center;
+		padding: 24px 25px 50px;
+		width: 370px;
+	}
+	li {
+		font-weight: 300;
+		font-size: 16px;
+		line-height: 22px;
+		color: #242121;
+		font-family: 'Open Sans';
+	}
+	li + li {
+		margin-top: 30px;
+	}
+	&__card-plan {
+		color: #242121;
+
+		text-align: left;
+		font-weight: bold;
+		margin-bottom: 8px;
+		font-family: 'Open Sans';
+
+		font-size: 16px;
+		font-style: normal;
+		font-weight: 700;
+		line-height: normal;
+	}
+	&__card-price {
+		color: #242121;
+		text-align: center;
+		font-family: 'Open Sans';
+
+		font-size: 80px;
+		font-style: normal;
+		font-weight: 300;
+		line-height: normal;
+		margin-bottom: 50px;
+		sup {
+			font-size: 40px;
+			line-height: 54px;
+		}
+	}
+	&__btn {
+		margin-top: 70px;
+		color: #242121;
+		text-align: center;
+		font-family: 'Montserrat';
+		font-size: 14px;
+		font-style: normal;
+		font-weight: 700;
+		line-height: normal;
+		letter-spacing: 1.2px;
+		border: none;
+		background: transparent;
+		cursor: pointer;
+	}
+}

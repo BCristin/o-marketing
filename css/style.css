@@ -621,4 +621,107 @@ body {
 
 .slick-next {
   right: -95px;
+}
+
+.team {
+  padding: 120px 0 130px;
+}
+.team__title {
+  margin-bottom: 120px;
+}
+.team__cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  text-align: center;
+}
+.team__card-title {
+  margin-top: 35px;
+  color: #333;
+  font-family: "Montserrat";
+  font-size: 14px;
+  font-weight: 700;
+  line-height: normal;
+}
+.team__card-subtitle {
+  margin-top: 12px;
+  color: #373a39;
+  font-family: "Open Sans", sans-serif;
+  font-size: 12px;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.pricing {
+  background-color: #f6f6fa;
+  padding: 145px 0 168px;
+}
+.pricing__title {
+  margin-bottom: 90px;
+}
+.pricing__cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.pricing__card {
+  background-color: #fff;
+  text-align: center;
+  padding: 24px 25px 50px;
+  width: 370px;
+}
+.pricing li {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 22px;
+  color: #242121;
+  font-family: "Open Sans";
+}
+.pricing li + li {
+  margin-top: 30px;
+}
+.pricing__card-plan {
+  color: #242121;
+  text-align: left;
+  font-weight: bold;
+  margin-bottom: 8px;
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.pricing__card-price {
+  color: #242121;
+  text-align: center;
+  font-family: "Open Sans";
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  margin-bottom: 50px;
+}
+.pricing__card-price sup {
+  font-size: 40px;
+  line-height: 54px;
+}
+.pricing__btn {
+  margin-top: 70px;
+  color: #242121;
+  text-align: center;
+  font-family: "Montserrat";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.2px;
+  border: none;
+  background: transparent;
+  cursor: pointer;
 }/*# sourceMappingURL=style.css.map */
