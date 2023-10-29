@@ -724,4 +724,19 @@ body {
   border: none;
   background: transparent;
   cursor: pointer;
+}
+
+.clients {
+  padding: 70px 0 95px;
+}
+.clients__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }/*# sourceMappingURL=style.css.map */

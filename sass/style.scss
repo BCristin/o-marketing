@@ -629,3 +629,11 @@ body {
 		cursor: pointer;
 	}
 }
+.clients {
+	padding: 70px 0 95px;
+	&__list {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+}
