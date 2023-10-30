@@ -821,4 +821,57 @@ body {
   cursor: pointer;
   margin-top: 40px;
   letter-spacing: 2px;
+}
+
+.footer__top {
+  padding: 110px 0 60px;
+  background: #333;
+  text-align: center;
+}
+.footer__logo {
+  display: inline-block;
+  padding: 0 35px 4px;
+  border-bottom: 2px solid #fcbb08;
+  margin-bottom: 70px;
+}
+.footer ul, .footer__social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 30px;
+  margin-bottom: 65px;
+}
+.footer__contact {
+  font-size: 14px;
+  color: #fff;
+  line-height: 32px;
+  margin-bottom: 60px;
+}
+.footer__contact a {
+  display: block;
+  margin: 10px 0;
+  color: white;
+}
+.footer__social-link {
+  color: #fff;
+  font-family: "Montserrat";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: 4px;
+}
+.footer__top-img {
+  display: inline-block;
+}
+.footer__copy {
+  padding: 40px 10px;
+  text-align: center;
+  font-size: 12px;
+  line-height: 16px;
+  color: #ccc;
+  background: #2a2c2b;
 }/*# sourceMappingURL=style.css.map */

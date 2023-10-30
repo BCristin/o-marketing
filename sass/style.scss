@@ -691,3 +691,57 @@ body {
 		letter-spacing: 2px;
 	}
 }
+
+.footer {
+	&__top {
+		padding: 110px 0 60px;
+		background: #333;
+		text-align: center;
+	}
+
+	&__logo {
+		display: inline-block;
+		padding: 0 35px 4px;
+		border-bottom: 2px solid #fcbb08;
+		margin-bottom: 70px;
+	}
+
+	ul,
+	&__social {
+		display: flex;
+		justify-content: center;
+		gap: 30px;
+		margin-bottom: 65px;
+	}
+	&__contact {
+		font-size: 14px;
+		color: #fff;
+		line-height: 32px;
+		a {
+			display: block;
+			margin: 10px 0;
+			color: white;
+		}
+		margin-bottom: 60px;
+	}
+	&__social-link {
+		color: #fff;
+		font-family: 'Montserrat';
+		font-size: 12px;
+		font-style: normal;
+		font-weight: 300;
+		line-height: normal;
+		letter-spacing: 4px;
+	}
+	&__top-img {
+		display: inline-block;
+	}
+	&__copy {
+		padding: 40px 10px;
+		text-align: center;
+		font-size: 12px;
+		line-height: 16px;
+		color: #ccc;
+		background: #2a2c2b;
+	}
+}
