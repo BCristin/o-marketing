@@ -44,7 +44,9 @@ body {
 
 		gap: 34px;
 	}
-
+	&__btn {
+		display: none;
+	}
 	&__list-link {
 		font-family: 'Raleway', sans-serif;
 		font-size: 12px;
@@ -129,6 +131,7 @@ body {
 
 	&__title {
 		font-size: 48px;
+		margin-right: 30px;
 	}
 }
 
@@ -457,8 +460,6 @@ body {
 .slider-blog {
 	background: #f8f6fa;
 	padding: 115px 0;
-	&__inner {
-	}
 
 	&__item {
 		padding: 190px 0;
@@ -534,12 +535,6 @@ body {
 		display: flex;
 		justify-content: space-between;
 		text-align: center;
-	}
-
-	&__card {
-	}
-
-	&__card-image {
 	}
 
 	&__card-title {
@@ -745,3 +740,4 @@ body {
 		background: #2a2c2b;
 	}
 }
+@import 'media';
